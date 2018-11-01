@@ -1,0 +1,27 @@
+
+.search-area {
+    .search-input {
+        padding: 6px;
+        width: 50%;
+        border: 1px solid gray;
+        border-radius: 50px;
+        margin-top: 8px;
+        // margin-right: 16px;
+        font-size: 17px;
+        &:hover, &:active {
+            border: 1px solid rgb(25, 187, 199);
+            border-radius: 50px;
+        }
+    }
+    .submit {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        .fa-search {
+        }
+    }
+   
+}
+.table {
+    margin-top: 50px;
+}

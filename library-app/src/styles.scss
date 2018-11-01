@@ -1,0 +1,26 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+* {
+    box-sizing: border-box;
+}
+.form-control {
+    width: 50%;
+}
+.button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 500;
+}
+.btn-submit {
+    background-color: green;
+    &:active, &:hover {
+        background-color: rgb(20, 167, 20);
+    }
+}
+.btn-cancel {
+    background-color: black;
+    &:active, &:hover {
+        background-color: rgb(34, 33, 33);
+    }
+}
